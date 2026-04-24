@@ -1,2 +1,3 @@
 # C-reniyorum
-Haliç üniversitesi 1. Sınıf Bilgisayar Mühendisiyim
+Haliç üniversitesi 1. Sınıf Bilgisayar Mühendisiyim çocukluktan beri hayalim olan bölümdü...
+Üniversitede  öğretilen bilgileri yeterli bulmadığımdan kendimi geliştirme kararı aldım  
