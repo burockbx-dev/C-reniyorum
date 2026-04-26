@@ -1,3 +1,7 @@
 # C-reniyorum
 Haliç üniversitesi 1. Sınıf Bilgisayar Mühendisiyim çocukluktan beri hayalim olan bölümdü...
-Üniversitede  öğretilen bilgileri yeterli bulmadığımdan kendimi geliştirme kararı aldım  
+Üniversitede  öğretilen bilgileri yeterli bulmadığımdan kendimi geliştirme kararı aldım.
+Bu dönemde haftada 5 gün fitness yapıyor, borsa da günlük  al sat (trade) öğreniyor, c++ da kednimi geliştiriyor ve hobilerimi yapmaya devam ediyorum, tabiki aynı zamanda da bölümümü devam ediyorum.
+Kendimi gerçekleştirmeye çalıştığım, elle tutulur bir şeyler başaramaya gayret ettiğim bir döndemdeyim. 
+Hayatım bir hayli yoğun olmasına rağmen yukarda bahsettiğim her seyde cok iyi seviyelere gelmek için uğraşıyorum.
+Yazılım konusundaki amacımdan bahsetmek gerekirse, şuan önceliğim c++ temellerini iyice öğrenmek ve c++ ta iyicce derinleşmek. Bunu yaptıktan sonra çeşitli projeler geliştireceğim. Bunun da ilerisinde ne yapacağımı biraz da gidişatın belirleyeceğini düşünüyorum. Belki başka bir dil öğrenip proje yapmaya devam ederim veya c++ da iyice derinleşiğ karmaşık projelere girişebilirim. Ne kadar hızlı devam edebilirsem o kadar iyi olduğunu düşünüyorum çünkü artık teknoloji sayesinde her şey daha kolay, her şeyin daha kolay olması ise maalesef aranan yazılımcı, mühendis olmayı zorlaştırıyor. Artık çok fazla rakip var ve bir çoğu benden önde, amacım onlara yetişip  kendi alanımdaki insanlarla arama büyük farklar açmak. Bu sayede güzel  projelerde bulunabilir, insanlığa katkıda bulunabilirim. Tabiki çok büyük paralar kazanmdak da istiyorum ama para başarının yanında elbet gelecektir.
