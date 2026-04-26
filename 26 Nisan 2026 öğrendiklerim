@@ -1,0 +1,194 @@
+#include <iostream>
+#include <clocale>
+using namespace std;
+
+int main ()
+{
+setlocale(LC_ALL,"Turkish");
+     // bu bir yorum satırıdır this a commetent single line
+    cout << "DAHDHADSASAA" << endl;
+
+    cout << "daadadad\n";
+    cout << "\t\t daadadad\t"<< endl;
+    cout << "dhadjaıdja\\";
+   cout << endl;
+
+/*
+ daad
+ dadad
+ dada
+ dad
+ da
+ d
+ sasa
+ asa
+ */
+
+
+
+    // variables int, float, char, blooelan
+
+
+int mynumber=7;
+    bool myboolean=false;
+    mynumber++;
+    char mychar='a';
+    float myfloat=3.14;
+    double mydouble=3.14343242;
+
+    string mystring="Hello World!";
+    cout <<   "my number is   " <<  mynumber;
+// variablesler benzersiz isim almalıdır
+
+    int secondsPerMinute=60;
+    // sayı ile başlayamaz alt çizgi veya harf ile başlayacak isimler büyük ve küçük harfe duyarlıdır
+    // boşluk bırakılamaz ve özel karakter kullanılamaz
+    // c++ ın kenfisi için ayırıdığı kod isimlerini kullanamazsınız
+
+const int minutes=60; //sabittir programın herhabgi bir yerinde feğiştirilemez v eilk satırda tamınlanır
+
+ mynumber=static_cast<int>(mynumber);
+    cout <<   "  my number is   " <<  mynumber;
+
+    cout<<endl;
+    cout<<endl;
+    cout<<endl;
+    cout<<endl;
+
+    int myanumber;
+    cout << "Enter a number";
+    cin >> myanumber;
+    cout<< "My naumber is " <<myanumber<<endl;
+
+    // daire çevre ve alan bulma programı
+
+    const float PI=3.1415;
+    float r, area,circumference;
+    cout<<"Enter the radius";
+    cin>>r;
+    circumference=PI*2*r;
+    area=PI*r*r;
+    cout<<"Area is "<<area<<endl;
+   cout<< circumference;
+
+   string mytextf;
+   cout<<"Enter the text";
+    getline(cin,mytextf);
+
+    cout<<"Your message is "<<mytextf<<endl;
+
+//Arithmatic operators + - % mod alma , *
+
+
+    int sum;
+    sum-7+12;
+    cout<<"Sum is "<<sum<<endl;
+
+    int sum2,sum3;
+    sum=7;
+    sum2=sum+15;
+    sum3=sum2+sum;
+    cout<<"Sum2 is "<<sum2<<endl;
+
+    cout<<endl;
+    cout<<endl;
+    cout<<endl;
+    cout<<endl;
+    cout<<endl;
+
+
+
+
+
+
+
+    int number1 =12 ,number2=15;
+int sum4,sub,multi,div,mod;
+    sum=number1+number2;
+    sub=number1-number2;
+    multi=number1*number2;
+    div=number1/number2;
+    mod=number1%number2;
+cout<<"Sum is "<<sum<<endl;
+    cout<<"Sub is "<<sub<<endl;
+    cout<<"Multi is "<<multi<<endl;
+    cout<<"Div is "<<div<<endl;
+    cout<<"Mod is "<<mod<<endl;
+
+// ++ ,-- ıncremt and decrement
+
+    int x=7;
+    ++x; //8 x=x+1 demektir
+// ++x ile x++ farklı ilki ilk önce arttırır ikincisi kullandıktan sonra arttırır.
+
+    cout<<"x is "<<x++<<endl; //8
+cout<<"x is "<<x<<endl; //9
+cout<<++x<<endl; //10
+cout<<"x is "<<x<<endl; //10
+
+
+
+
+
+
+
+
+//Asignmnet Operators
+    int t=7, f=15;
+    t+=12;
+    t-=3;
+    f =15;
+    f%=3;
+
+    cout<<"t is "<<t<<endl;
+    cout<<"z is "<<f<<endl;
+
+
+//Bitwise Operators
+
+      //&= and demek, |= or demek, ^= xor demek, >>=, <<=
+
+    //if else ile ilgili koşullu ifadeler
+
+    if (19>7) {
+        cout<<"19 7den büyüktür";
+    }
+    if (7>19) { // o döndürür
+        cout<<"19 7den büyüktür";
+        cout<<endl;
+    }
+int a,b;
+    a=19;
+    b=1;
+    if (a>b)
+        cout<<"a b den daha büyktür";
+    else
+        cout<<"Tam tersi";
+
+    int number;
+    cout<<"Enter the number";
+    cin>>number;
+
+    if (number>0)
+        cout<<"0 dan büyüktür"<<endl;
+
+    else
+        cout<<"0 dan küçüktür"<<endl;
+
+
+
+    int number3;
+    cout<<"Enter the number";
+    cin>>number;
+    if (number3) {
+        cout<<"numara küçük değil";
+    }else if (number==8)
+    {
+
+    }
+    else {
+        cout<<"bu numara küçük değil";
+
+    }
+    return 0;
+}
