@@ -1,0 +1,258 @@
+#include <iostream>
+#include <numbers>
+using namespace std;
+int main() {
+//     /* int score;
+//       int mynumber;
+//       cout<<"Enter the score: ";
+//       cin>>score;
+//       if(score>50) {
+//           cout<<"You passed the exam. Well done\n";
+//           cout<<"Your score is: "<<score<<endl;
+//       }else if (score>=50 && score==100) { //if calıstıgı için else if çalışmıyor ifi düzenlemeliyiz
+//           cout<<"You are amazing\n";
+//
+//       }
+//
+//       else
+//
+//       {
+//           cout<<"You didnt pass the exam\n";
+//
+//       }
+//
+//       // tek veya cift oldgunu bulma
+//
+//
+//       cout<<"Enter the number: ";
+//       cin>>mynumber;
+//       if(mynumber<0) {
+//           cout<<"Please do not enter negative numbers\n";
+//       }else
+//       {
+//           if(mynumber%2 ==0)
+//               cout<<mynumber<<"is an even number\n";
+//           else
+//               cout<<mynumber<<"is an odd number\n";
+//       }
+//
+//
+//
+//
+//       int x,y,z,mymin,mymax;
+//       cout<<"Enter the three number ";
+//       cin>>x>>y>>z;
+//    if (x>y && x>z) {
+//        mymax=x;
+//        mymin=(y<z) ? y : z;
+//    }else if (y>x && y>z) {
+//       mymax=y;
+//        mymin=(x<z) ? x : z;
+//    }else {
+//        mymax=z;
+//        mymin=(x<y) ? x : y;
+//    }
+//       cout<<"max:  "<<mymax<<endl;
+//       cout<<"min:  "<<mymin<<endl;
+//
+//
+//
+//
+//
+//       // switch case yapısı
+//       int day;
+//       cout<<"Enter the day number: ";
+//       cin>>day;
+//       switch(day) {
+//           case 1: cout<<"Monday"; break;
+//           case 2: cout<<"Tuesday"; break;
+//           case 3: cout<<"Wednesday"; break;
+//           case 4: cout<<"Thursday"; break;
+//           case 5: cout<<"Friday"; break;
+//           case 6: cout<<"Saturday"; break;
+//           case 7: cout<<"Sunday"; break;
+//           default: cout<<"Invalid input\n";
+//
+//
+//
+//
+//
+//       }
+//
+//   */
+//     int x=9,y=7,result;
+//     // result=(x==7)? 19: ((y==12)? 10: -7); switchle yapılan seyin aynısı olur
+//     switch (x) {
+//         case7:result=19;break;
+//         default:switch (y) {
+//             case 12:result=20;break;
+//             default:result=-7;
+//         }
+//     }
+//
+//     cout<<result<<endl;
+
+    // char myoperator;
+    // float z,t;
+    // cout<<"Choose operator(+,-,*,/):";
+    // cin>>myoperator;
+    // cout<<"Enter two numbers: ";
+    // cin>>z>>t;
+    // switch (myoperator) {
+    //     case '+':break;
+    //         case '-':break;
+    //         case '*':break;
+    //         case '/':break;
+    //     default:cout<<"Wrong choice"<<endl;
+
+    //}
+    // char letter;
+    // cout<<"Enter a letter: ";
+    // cin>>letter;
+    // switch (letter) {
+    //     case 'a':
+    //     case 'k':
+    //     case 'e':
+    //     case 'u':
+    //     case 'o':cout<<letter<<"is a vowel"<<endl;break;
+    //     adefault:cout<<letter<<"is not a vowel"<<endl;break;
+    //
+    //
+
+   // }
+// short int month;
+// cout<<"Enter month: ";
+// cin>>month;
+//    switch (month) {
+//        case 4:
+//
+//            case 6:
+//            case 9:
+//            case 11:cout<<"There are 30 days";break;
+//
+//            case 1:
+//
+//            case 3:
+//            case 5:
+//
+//
+//
+//            case 7:
+//            case 8:
+//            case 10:
+//            case 12:cout<<"There are 31 days";break;
+//        case 2:cout<<"There are 28 or 30 days";break;
+//            default:cout<<"There are no such number";break;
+//    }
+//
+    //
+    // short int h=80;
+    // h>>=2; // 2 nin katlarıyla böler yani ne yazılırsa karesşyle böler
+    // cout<<"h" << h <<endl;
+    // h<<=2; //2 nin kuvvetletiyel çarpar
+    //
+    // cout<<"h"<<h<<endl;
+    //
+    //
+    //
+    // short int number,result1,ab,cd;
+    // cout<<"Enter a positive four-digit number: ";
+    // cin>>number;
+    // ab=number/100;
+    // cd=number%100;
+    // result1=(ab+cd)*(ab+cd);
+    // if (result1==number) {
+    //     cout<<"The number is absolute number."<<endl;
+    // }
+    // else{
+    //     cout<<"The number is not absolute number."<<endl;
+    // }
+    //
+    //
+    //
+    //
+//
+// char mycahracter;
+//     cout << "Enter a character: ";
+//     cin >> mycahracter;
+//     if ((mycahracter >= 'A') && (mycahracter <='Z')) {
+//         cout<<mycahracter<<"is an capital letter."<<endl;
+//     }
+//         else if ((mycahracter >= 'a') && (mycahracter <='z')) {
+//             cout<<mycahracter<<"is a lowercase letter."<<endl;
+//         }
+//             else {
+//                 cout<<mycahracter<<"is not a  letter."<<endl;
+//             }
+//
+
+
+    //
+    // int number,result2;
+    // cout<<"Enter a number:";
+    // cin>>number;
+    // if(number<0) {
+    //     cout<<"please do not enter a negative number or zero"<<endl;
+    // } else {
+    //     result2=sqrt(number); // karekök alır
+    //     result2*=result2;
+    //     if (result2==number){
+    //         cout<<"Square root of "<<number<<" is an integer"<<endl;
+    // }
+    //         else
+    //         {
+    //             cout<<"The nımber entered not an integer"<<endl;
+    //
+    //         }
+    //     }
+    //
+
+// int i=1;
+//     while (i<=7)// ture oldugu sürece döngü devam eder
+//         {
+//    cout<<"C++ is a wonderful langıage";
+//         i++;
+//         //i=2
+//     }
+//
+//
+
+    //do whilw
+
+    // short int i=8;
+    // while(i<7) {
+    //     cout << i << endl;
+    //     i++;
+
+    // }
+    // short int i=7;
+    // do { // bir kez kesin calıstırır
+    //     cout << i << endl;
+    //     i++;
+    // }while (i<7) ; // koşul sonda bu sefer
+
+    //
+    // short int number,i=1;
+    // do {
+    //     i=1;
+    //     cout<<"Enter a number: ";
+    //     cin>>number;
+    //     if(number<1 || number>50)
+    //         break;
+    //     while(i<=number) {
+    //         cout<<i<<" ";
+    //         i++;
+    //     }
+    //     cout<<endl;
+    //
+    // }while(number>=1 && number<=50);
+    // return 0;
+    //
+
+
+
+
+
+
+
+}
